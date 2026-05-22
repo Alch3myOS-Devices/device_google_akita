@@ -52,7 +52,7 @@ PRODUCT_PACKAGES += \
     SettingsGoogleAkitaOverlay \
     ShannonImsOverlayProductAkita \
     SystemUIGoogleOverlayVendorAkita \
-    PixelWifiOverlay2023 \
+    PixelWifiOverlay2023Akita \
     Alch3mySettingsAkita
 
 PRODUCT_PACKAGES += \
