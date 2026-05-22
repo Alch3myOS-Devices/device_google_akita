@@ -8,17 +8,8 @@
 # Disable Artifact Requirements
 DISABLE_ARTIFACT_PATH_REQUIREMENTS := true
 
-TARGET_SUPPORTED_REFRESH_RATES := 60,120
-
 # Always use scudo for memory allocator
 PRODUCT_USE_SCUDO := true
-
-# Include Chargeing Bypass
-BYPASS_CHARGE_SUPPORTED := true
-
-# Supports HBM
-HBM_SUPPORTED := true
-HBM_NODE := /sys/class/backlight/panel0-backlight/hbm_mode
 
 # Pixel Kernel
 TARGET_LINUX_KERNEL_VERSION := 6.1
